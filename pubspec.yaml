@@ -37,11 +37,6 @@ dependencies:
   http: ^1.6.0
 
 
-# neuron declares digia_engage at `../core`, which only resolves when neuron
-# lives inside de_workspace/flutter. Force a single source for both.
-dependency_overrides:
-  digia_engage:
-    path: /Users/amarrawat/Digia/de_workspace/flutter/core
 
 dev_dependencies:
   flutter_test:
