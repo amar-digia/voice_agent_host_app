@@ -35,13 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   http: ^1.6.0
-  speech_to_text: ^7.5.0
-  flutter_tts: ^4.2.5
 
-  digia_engage:
-    path: /Users/amarrawat/Digia/de_workspace/flutter/core
-  neuron:
-    path: /Users/amarrawat/Desktop/neuron
 
 # neuron declares digia_engage at `../core`, which only resolves when neuron
 # lives inside de_workspace/flutter. Force a single source for both.
